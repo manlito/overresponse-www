@@ -12,11 +12,18 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "bulma": "^0.7.2",
-    "gatsby": "^2.0.76",
-    "gatsby-plugin-sass": "^2.0.7",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "bootstrap": "^4.2.1",
+    "gatsby": "^2.0.118",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-sass": "^2.0.10",
+    "install": "^0.12.2",
+    "intl": "^1.2.5",
+    "node-sass": "^4.11.0",
+    "npm": "^6.6.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-intl": "^2.8.0",
+    "reactstrap": "^7.1.0"
   },
   "repository": {
     "type": "git",
