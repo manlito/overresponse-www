@@ -1,17 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Layout from '../layouts/en'
-import Jumbotron from '../components/jumbotron.en'
+import Jumbotron from '../components/home/jumbotron/jumbotron.en'
+import CenteredContent from '../components/layout/centered-content'
+import Features from '../components/home/features/features.en'
 
 const IndexPage = props => (
   <Layout location={props.location}>
-    <div>
-      <Jumbotron />
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <Link to='/page-2/'>Go to page 2</Link>
-    </div>
+    <Jumbotron />
+    <CenteredContent>
+      <Features />
+    </CenteredContent>
   </Layout>
 )
 

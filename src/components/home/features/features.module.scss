@@ -1,0 +1,66 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/mixins.scss';
+
+.index-section {
+  margin-top: 60px;
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+.thumbnail {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  border-width: 0px;
+  @include shadow-lifted();
+  height: 490px;
+}
+.caption-heading {
+  padding: 20px;
+  text-align: center;
+}
+.caption-image {
+  height: 300px;
+  text-align: center;
+}
+.caption-small {
+  height: 74px;
+  padding: 20px 10px;
+  h5 {
+    font-size: 16px;
+  }
+}
+.caption-description {
+  text-align: left;
+  margin: 0 10px;
+  padding-right: 10px;
+}
+
+.more-features {
+	overflow-y: auto;
+	.accordion {
+		padding: 10px;
+	}
+}
+
+.sample-monitor {
+	text-align: center;
+	table {
+		width: 90%;
+		margin: auto;
+		td:first-child {
+			font-weight: bold;
+		}
+		td {
+			width: 50%;
+		}
+		tr {
+			height: 75px;
+		}
+		th {
+			text-transform: uppercase;
+			text-align: center;
+			vertical-align: middle;
+		}
+	}
+}

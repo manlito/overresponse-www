@@ -10,14 +10,14 @@
 
 // Reassign color vars to semantic color scheme
 $theme-colors: (
-  primary:  #990000,
+  primary: #990000,
   secondary: $gray-600,
   success: $green,
   info: $cyan,
   warning: $yellow,
   danger: $red,
   light: $gray-100,
-  dark: $gray-800,
+  dark: $gray-800
 ) !default;
 
 // Options
@@ -26,7 +26,7 @@ $theme-colors: (
 $enable-rounded: true !default;
 $enable-shadows: true !default;
 $enable-gradients: false !default;
-$enable-transitions: false !default;
+$enable-transitions: true !default;
 $enable-hover-media-query: false !default;
 $enable-grid-classes: true !default;
 $enable-print-styles: true !default;
@@ -39,7 +39,7 @@ $container-max-widths: (
   sm: 540px,
   md: 640px,
   lg: 710px,
-  xl: 780px,
+  xl: 780px
 ) !default;
 
 // Body

@@ -12,16 +12,19 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
-    "gatsby": "^2.0.118",
+    "bootstrap": "^4.3.1",
+    "flat": "^4.1.0",
+    "gatsby": "^2.1.17",
     "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.0",
     "gatsby-plugin-sass": "^2.0.10",
     "install": "^0.12.2",
     "intl": "^1.2.5",
+    "jquery": "^3.3.1",
     "node-sass": "^4.11.0",
     "npm": "^6.6.0",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
     "react-intl": "^2.8.0",
     "reactstrap": "^7.1.0"
   },

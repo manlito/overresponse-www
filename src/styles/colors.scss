@@ -1,3 +1,4 @@
+// Bootstrap
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -21,5 +22,34 @@ $green: #8bc34a !default;
 $teal: #009688 !default;
 $cyan: #00bcd4 !default;
 
+// Colors in use
 $base-border-color: #e5e5e5;
 $link-color: $gray-700;
+
+$base-color: #990000;
+$base-inverse-color: #FFFFFF;
+$base-color-stronger: #550000;
+
+// Unused colors
+$base-color-light: #CC0000;
+$base-color-strong: #770000;
+$base-color-hover: #fceded;
+$base-color-hover-strong: #eebbbb;
+$base-gradient-start: #CC0000;
+$base-gradientEnd: #990000;
+$base-border-color: #e5e5e5;
+$font-color: #444444;
+$font-color-semi: #666666;
+$font-color-light: #999999;
+$font-color-inactive: #cccccc;
+$link-color: #222222;
+$font-color-inverted: #FFFFFF;
+$font-color-disabled: #BBBBBB;
+$font-color-invalid: #b94a48;
+$font-color-highlight: #f8f8f8;
+$font-color-highlight-semi: #f4f4f4;
+$font-color-highlight-strong: #f0f0f0;
+$font-color-highlight-stronger: #dddddd;
+$base-color-r: 153;
+$base-color-g: 0;
+$base-color-b: 0;

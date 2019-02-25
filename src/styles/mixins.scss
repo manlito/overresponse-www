@@ -1,0 +1,21 @@
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin drop-shadow($radius, $color) {
+  -moz-box-shadow: 0px 0px $radius $radius $color;
+  -webkit-box-shadow: 0px 0px $radius $radius $color;
+  box-shadow: 0px 0px $radius $radius $color;
+}
+
+@mixin shadow-lifted() {
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2),
+    inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
