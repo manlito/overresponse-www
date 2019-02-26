@@ -3,12 +3,11 @@ import PropTypes from 'prop-types'
 import flatten from 'flat'
 import { IntlProvider, FormattedMessage } from 'react-intl'
 import styles from './features.module.scss'
-import surveyStyles from './respondant.scss'
 import dragpAndDropImage from '../../../images/features-drag-and-drop.png'
 import javascriptAPIImage from '../../../images/features-javascript-api.png'
-
 // Content components
 import MoreFeatures from './more'
+import SampleSurvey from './survey'
 
 const Features = ({ locale, i18nMessages }) => {
   return (
@@ -27,217 +26,7 @@ const Features = ({ locale, i18nMessages }) => {
                   </h3>
                 </div>
                 <div className={styles.captionImage}>
-                  <div
-                    className={`${
-                      surveyStyles.ORSurveyContainer
-                    } Desktop Expand`}
-                  >
-                    <div className='ORMain WithAutoScroll'>
-                      <div className='ORSlimContainer'>
-                        <div
-                          className='ORLayoutCenter'
-                          style={{ height: '95%' }}
-                        >
-                          <div className='ORContent'>
-                            <div
-                              className='ORContentItems'
-                              style={{ display: 'block' }}
-                            >
-                              <div className='ORItemContainer ORItemId0001 Rounded5px RadioText Bottom Vertical'>
-                                <div className='ORLabel'>
-                                  How did you hear about us?
-                                </div>
-                                <div className='ORRadioText ORChoice ORGeneric'>
-                                  <div className='UiItem' id='7420443bf40cc65b'>
-                                    <div className='ORInput'>
-                                      <div className='uiRadioChoice uiMultiOption uiGeneric uiRadio uiRadioText'>
-                                        <div className='Options '>
-                                          <ul>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    I was googling for a survey
-                                                    solution
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    A blog / &nbsp;Podcast /
-                                                    Review
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    I saw a survey on another
-                                                    site
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    Some other
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div style={{ clear: 'both' }} />
-                                  </div>
-                                </div>
-                                <div className='ORClearFloat' />
-                              </div>
-                              <div className='ORItemContainer ORItemId0002 Rounded5px RadioText Bottom Vertical'>
-                                <div className='ORLabel'>And you are...</div>
-                                <div className='ORRadioText ORChoice ORGeneric'>
-                                  <div className='UiItem' id='bf07b83ae6ceebea'>
-                                    <div className='ORInput'>
-                                      <div className='uiRadioChoice uiMultiOption uiGeneric uiRadio uiRadioText'>
-                                        <div className='Options '>
-                                          <ul>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    A marketing professional
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    A blogger / &nbsp;website
-                                                    administrator
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div style={{ clear: 'both' }} />
-                                  </div>
-                                </div>
-                                <div className='ORClearFloat' />
-                              </div>
-                              <div className='ORItemContainer ORItemId0003 Rounded5px RadioText Bottom Horizontal'>
-                                <div className='ORLabel'>
-                                  Will you embed surveys on your site?
-                                </div>
-                                <div className='ORRadioText ORChoice ORGeneric'>
-                                  <div className='UiItem' id='16a4aaceaded9efa'>
-                                    <div className='ORInput'>
-                                      <div className='uiRadioChoice uiMultiOption uiGeneric uiRadio uiRadioText'>
-                                        <div className='Options '>
-                                          <ul>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    Not sure
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    <div className='Icon OptionNo' />
-                                                    No
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                            <li className='Option '>
-                                              {' '}
-                                              <div className='OptionContent Rounded8px'>
-                                                {' '}
-                                                <div className='CellCheck'>
-                                                  <div className='CheckMark ORFontIcon' />
-                                                </div>{' '}
-                                                <div className='CellLabel'>
-                                                  <div className='Legend'>
-                                                    <div className='Icon OptionYes' />
-                                                    Yes
-                                                  </div>
-                                                </div>{' '}
-                                              </div>
-                                            </li>
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div style={{ clear: 'both' }} />
-                                  </div>
-                                </div>
-                                <div className='ORClearFloat' />
-                              </div>
-                              <div className='OREndSpacer' />
-                            </div>
-                          </div>
-                          <div className='ORFooter'>OverResponse 2013</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <SampleSurvey />
                 </div>
                 <div className={styles.captionSmall}>
                   <h5>
@@ -348,7 +137,7 @@ const Features = ({ locale, i18nMessages }) => {
                     styles.captionDescription
                   } ${styles.moreFeatures}`}
                 >
-                  <MoreFeatures />
+                  <MoreFeatures locale={locale} i18nMessages={i18nMessages.more} />
                 </div>
                 <div className={styles.captionSmall}>
                   <h5>
