@@ -1,11 +1,10 @@
 @import '../../../styles/colors.scss';
 @import '../../../styles/mixins.scss';
 
-/** Elements of the public index **/
 .home-banner {
   background-color: $base-color-strong;
   color: $base-inverse-color;
-  padding: 100px 0 80px 0;
+  padding: 140px 0 100px 0;
   .home-survey {
     height: 315px;
   }
@@ -22,8 +21,8 @@
   }
 }
 
-/** Elements of the public index **/
 .sample-survey {
+  border-radius: 5px;
   background-color: $base-color-strong;
   color: $base-inverse-color;
   padding: 100px 0 80px 0;
@@ -44,22 +43,25 @@
   padding-right: 40px;
   h1 {
     font-size: 64px;
-    line-height: 1.1;
+    line-height: 1.2;
+    padding-top: 10px;
   }
   h2 {
-    font-size: 28px;
-    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 25px;
   }
   .btn {
     font-size: 21px;
     padding: 14px 24px;
   }
   p {
-      font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 }
 
-.lead {
+p.lead {
+  font-size: 22px;
   padding: 15px 0;
 }
 

@@ -8,10 +8,10 @@ const Footer = ({ siteTitle }) => (
     <div className={styles.links} >
       <ul>
         <li>
-          <Link to="/about-us">About us</Link>
+          <Link to="/about-us">About</Link>
         </li>
         <li>
-          <Link to="/terms">Terms</Link>
+          <Link to="/terms">Legal</Link>
         </li>
         <li>
           <Link to="/contact-us">Contact us</Link>

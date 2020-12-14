@@ -13,18 +13,20 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Raleway`,
-            variants: [`400`]
-          },
-          {
-            family: `Droid Sans`,
-            variants: [`400`]
-          }
-        ]
+        fonts: {
+          google: [
+            {
+              family: `Oxygen`,
+              variants: [`400`]
+            },
+            {
+              family: `Source Sans Pro`,
+              variants: [`400`]
+            }
+          ]
+        }
       }
     },
     {

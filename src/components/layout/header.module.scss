@@ -1,0 +1,20 @@
+@import '../../styles/colors.scss';
+@import '../../styles/mixins.scss';
+
+.menu {
+  margin: auto;
+
+  li a {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: $base-color-hover !important;
+  }
+
+  li a:hover {
+    color: $font-color-inverted !important;
+  }
+}
+
+.login-button {
+  margin-right: 0.5rem;
+}

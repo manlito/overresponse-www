@@ -18,20 +18,9 @@ const Jumbotron = ({ locale, i18nMessages }) => (
             <p className={styles.lead}>
               <FormattedMessage id='headingDescription' />
             </p>
-            <div className={styles.btnContainer}>
-              <a className='btn btn-light btn-lg' href='/register'>
-                <b>
-                  <FormattedMessage id='signUpFree' />
-                </b>{' '}
-                | <FormattedMessage id='signUpQuota' />
-              </a>
-            </div>
           </div>
           <div className='col-md-6 col-lg-5'>
             <div className={`${styles.sampleSurvey}`}>
-              <h2>
-                <FormattedMessage id='sampleHeading' />
-              </h2>
               <div className={styles.homeSurvey}>
                 <div
                   id='homeSurveyContainer'

@@ -1,0 +1,47 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/mixins.scss';
+
+.index-section {
+  margin-top: 70px;
+  h2 {
+    margin-top: 50px;
+  }
+}
+
+.feature {
+  margin-top: 50px;
+}
+
+.feature-content {
+  padding: 50px;
+
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.feature-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.code {
+  margin: 1rem;
+  border-radius: 5px;
+  border-color: #d8d8d8;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1rem;
+}
+
+.with-transition {
+  transition: all 0.25s;
+}
+
+.monitor-table {
+  table-layout: fixed;
+}
+
+.chart {
+  margin: auto;
+}

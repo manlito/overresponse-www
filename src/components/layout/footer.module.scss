@@ -3,12 +3,11 @@
 .footer {
   text-align: center;
   margin-top: 50px;
-  padding: 1em 1em 2.3em 1em;
+  padding: 1.5em;
   border-top: 1px solid $base-border-color;
   color: $link-color;
 }
 .links {
-  float: left;
   ul {
     margin: 0;
     padding: 0;
@@ -23,10 +22,4 @@
       padding: 0 1em; /* Provides horizontal separation between menu items */
     }
   }
-}
-.copy {
-  float: right;
-}
-.clear {
-  clear: both;
 }
